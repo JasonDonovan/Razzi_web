@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Inconsolata:wght@400;600;800&display=swap");
-/*@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap"); */
 .vlns .vl-heading.vl-mb-30,
 .vlns .vl-heading {
   font-family: "Inconsolata" !important;
@@ -59,39 +58,6 @@
 
 .form-group {
   position: relative !important; }
-
-/*
-.vlns .vl-sharing-btn {
-  background-color: #17181B !important; }
-
-.vlns .mb-3.vl-mb-15 {
-  padding: 5px !important;
-  font-family: "Inconsolata" !important;
-  color: #17181B !important;
-  font-size: 24px !important;
-  font-weight: 800 !important; }
-
-.vlns .vl-leaderboard-position {
-  background-color: #FFD600 !important;
-  padding: 15px !important;
-  color: #17181B !important;
-  font-family: "Inconsolata", sans-serif !important;
-  font-weight: 800 !important; }
-
-.vlns .vl-leaderboard-info {
-  background: #F0F3F3 !important;
-  padding: 5px !important;
-  font-family: "IBM Plex Sans" !important;
-  color: #525A5A !important; }
-
-.vlns .table td,
-.vlns .vl-leaderboard-heading {
-  font-family: "IBM Plex Sans" !important;
-  color: #17181B !important;
-  font-size: 16px !important;
-  font-weight: 600 !important; }
-
-  */
 
 * {
   box-sizing: content-box;
