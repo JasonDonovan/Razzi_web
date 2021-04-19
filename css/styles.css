@@ -143,8 +143,8 @@ a {
   gap: 10px; }
   #social-links a {
     display: block;
-    height: 14px;
-    width: 14px;
+    height: 16px;
+    width: 16px;
     transition: all 0.15s ease-in-out;
     background-position: center center;
     background-repeat: no-repeat; }
