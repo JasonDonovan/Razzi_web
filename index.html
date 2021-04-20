@@ -31,10 +31,11 @@
 <body>
   <div id="video-modal">
     <a href="#" class="modal-close-btn" onclick="myFunction()">Close</a>
-    <video control preload="auto" id="haylee-video" height="80%" width="auto">
+    <video control preload="auto" id="haylee-video" height="80%" width="auto" onwaiting="">
       <source src="https://razzipics.com/static/razzi-promo.mp4" type="video/mp4">
     </video>
   </div>
+
   <div id="hero">
     <div class="blurb">
       <nav id="social-links">
@@ -123,12 +124,26 @@
 
     <!-- Video Player -->
     <script>
+    function changeSource() {
+   var video = document.getElementById("haylee-video");
+   video.setAttribute('src','https://razzipics.com/static/razzi-promo-slower.mp4')
+   video.play();
+    }
+    </script>
+
+
+    <script>
       function myFunction() {
         var popup = document.getElementById("haylee-video");
         var modal = document.getElementById("video-modal");
         modal.classList.toggle("modal-active");
         if (modal.classList.contains("modal-active")){
           popup.play();
+          popup.onwaiting = function() {
+            popup.setAttribute('src','https://razzipics.com/static/razzi-promo-slower.mp4');
+            popup.play();
+            };
+          //popup.onwaiting = function changeSource();
         }
         else{
           popup.pause();
