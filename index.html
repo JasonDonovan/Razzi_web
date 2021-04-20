@@ -140,7 +140,9 @@
         if (modal.classList.contains("modal-active")){
           popup.play();
           popup.onwaiting = function() {
+            popup.pause();
             popup.setAttribute('src','https://razzipics.com/static/razzi-promo-slower.mp4');
+            popup.load();
             popup.play();
             };
           //popup.onwaiting = function changeSource();
