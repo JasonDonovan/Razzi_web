@@ -139,12 +139,12 @@ a {
   top: 13px;
   right: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px; }
   #social-links a {
     display: block;
-    height: 16px;
-    width: 16px;
+    height: 15px;
+    width: 15px;
     transition: all 0.15s ease-in-out;
     background-position: center center;
     background-repeat: no-repeat; }
@@ -156,6 +156,8 @@ a {
       background-image: url(../img/icon-facebook.svg); }
     #social-links a.instagram {
       background-image: url(../img/icon-instagram.svg); }
+    #social-links a.tiktok {
+      background-image: url(../img/icon-tiktok.svg); }
 
 .app-store img {
   width: 200px; }
