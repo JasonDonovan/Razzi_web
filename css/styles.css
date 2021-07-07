@@ -139,7 +139,7 @@ a {
   top: 13px;
   right: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px; }
   #social-links a {
     display: block;
@@ -158,6 +158,8 @@ a {
       background-image: url(../img/icon-instagram.svg); }
     #social-links a.tiktok {
       background-image: url(../img/icon-tiktok.svg); }
+    #social-links a.discord {
+      background-image: url(../img/icon-discord.svg); }
 
 .app-store img {
   width: 200px; }
